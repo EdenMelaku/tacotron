@@ -1,26 +1,23 @@
 # Tacotron 
 
-An implementation of Tacotron speech synthesis in TensorFlow. with support for android
-
-
-### Audio Samples
-
-  * **[Audio Samples](https://keithito.github.io/audio-samples/)** from models trained using this repo.
-    * The first set was trained for 441K steps on the [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/)
-      * Speech started to become intelligble around 20K steps.
-    * The second set was trained by [@MXGray](https://github.com/MXGray) for 140K steps on the [Nancy Corpus](http://www.cstr.ed.ac.uk/projects/blizzard/2011/lessac_blizzard2011/).
+An implementation of Tacotron speech synthesis in TensorFlow. with service hosted on flask server and can be accessed by http request. 
 
 
 
 ## Background
+background statement made by Keith Ito who made the tacotron implemtation 
 
-In April 2017, Google published a paper, [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/pdf/1703.10135.pdf),
+please refer to https://github.com/keithito/tacotron
+
+"In April 2017, Google published a paper, [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/pdf/1703.10135.pdf),
 where they present a neural text-to-speech model that learns to synthesize speech directly from
 (text, audio) pairs. However, they didn't release their source code or training data. This is an
 independent attempt to provide an open-source implementation of the model described in their paper.
 
 The quality isn't as good as Google's demo yet, but hopefully it will get there someday :-).
-Pull requests are welcome!
+Pull requests are welcome!" 
+
+
 
 
 
