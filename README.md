@@ -51,7 +51,7 @@ Pull requests are welcome!
    python3 TacotronServer.py --checkpoint /tmp/tacotron-20180906/model.ckpt
    ```
 
-3. **now go to the android applicaton **
+3. **now go to the android applicaton**:
    * Type what you want to synthesize and the ip address of your computer 
    * Note: your computer and mobile device should connect to the same network
 
