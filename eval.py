@@ -18,6 +18,12 @@ sentences = [
   'Talib Kweli confirmed to AllHipHop that he will be releasing an album in the next year.',
 ]
 
+amhSentences = ['ከአድማስ ባሻገር',
+                'ፍቅር እስከ መቃብር',
+                'የተቆለፈበት ቁልፍ',
+                'ስብሐት ገብረእግዚአብሔር ሕይወትና ክህሎት',
+                'እኛ የመጨረሻዎቹ እና ሌሎች '
+                ]
 
 def get_output_base_path(checkpoint_path):
   base_dir = os.path.dirname(checkpoint_path)
@@ -31,7 +37,7 @@ def run_eval(args):
   synth = Synthesizer()
   synth.load(args.checkpoint)
   base_path = get_output_base_path(args.checkpoint)
-  for i, text in enumerate(sentences):
+  for i, text in enumerate(amhSentences):
     path = '%s-%d.wav' % (base_path, i)
     print('Synthesizing: %s' % path)
     with open(path, 'wb') as f:
