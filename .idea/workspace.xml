@@ -100,7 +100,11 @@
         <entry file="file://$PROJECT_DIR$/text/amharicSymbols.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
+<<<<<<< HEAD
               <caret line="21" selection-start-line="21" selection-end-line="21" />
+=======
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+>>>>>>> 11491f814019302771a07a1c8f356c853c0f1824
             </state>
           </provider>
         </entry>
@@ -264,7 +268,11 @@
     <frame x="45" y="-4" width="1321" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20156863" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16862746" />
+>>>>>>> 11491f814019302771a07a1c8f356c853c0f1824
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -274,9 +282,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49960783" weight="0.32868218" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039214" side_tool="true" weight="0.32868218" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49960783" visible="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50039214" side_tool="true" visible="true" weight="0.32868218" />
+>>>>>>> 11491f814019302771a07a1c8f356c853c0f1824
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -489,11 +503,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eval.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="570">
           <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+>>>>>>> 11491f814019302771a07a1c8f356c853c0f1824
         </state>
       </provider>
     </entry>
