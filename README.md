@@ -115,8 +115,14 @@ Pull requests are welcome!
    Hyperparameters should generally be set to the same values at both training and eval time.
    The default hyperparameters are recommended for LJ Speech and other English-language data.
    See [TRAINING_DATA.md](TRAINING_DATA.md) for other languages.
+   
 
-
+5. **Continue Train a model from checkpoint**
+   ```
+   python3 train.py --restore_step <number>
+   ```
+  if your training was stopped due to power or other issues, and you want to continue training and you simply run training.py it will start from step 1 and rewrite the models that are saved for every 1000 step , so run train.py with argument restore_step and give it the number of the latest step that has been saved. you can check the latest saved checkpoint at    
+  
 5. **Monitor with Tensorboard** (optional)
    ```
    tensorboard --logdir ~/tacotron/logs-tacotron
