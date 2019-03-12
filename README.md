@@ -121,9 +121,11 @@ Pull requests are welcome!
    ```
    python3 train.py --restore_step <number>
    ```
-  if your training was stopped due to power or other issues, and you want to continue training and you simply run training.py it will start from step 1 and rewrite the models that are saved for every 1000 step , so run train.py with argument restore_step and give it the number of the latest step that has been saved. you can check the latest saved checkpoint at    
-  
-5. **Monitor with Tensorboard** (optional)
+   if your training was stopped due to power or other issues, and you want to continue training and you simply run training.py it will start from step 1 and rewrite the models that are saved for every 1000 step , so run train.py with argument restore_step and give it the number of the latest step that has been saved. you can check the latest saved checkpoint at    
+     ```
+   cd ~/tacotron/logs-tacotron
+   ```
+6. **Monitor with Tensorboard** (optional)
    ```
    tensorboard --logdir ~/tacotron/logs-tacotron
    ```
@@ -131,7 +133,7 @@ Pull requests are welcome!
    The trainer dumps audio and alignments every 1000 steps. You can find these in
    `~/tacotron/logs-tacotron`.
 
-6. **Synthesize from a checkpoint**
+7. **Synthesize from a checkpoint**
    ```
    python3 demo_server.py --checkpoint ~/tacotron/logs-tacotron/model.ckpt-185000
    ```
